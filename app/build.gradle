@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+
+android {
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+}
+android {
+    compileSdkVersion 28
+    buildToolsVersion "28.0.2"
+    defaultConfig {
+        applicationId "com.aospstudio.android.apps.mediabook2"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 40000003
+        versionName "2.0.2224.24-googleplay"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            useProguard true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.appcompat:appcompat:1.0.0-rc02'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0-rc02'
+    implementation 'com.google.android.material:material:1.0.0-rc02'
+    implementation 'com.muddzdev:styleabletoast:2.1.2'
+    implementation 'gun0912.ted:tedpermission:2.1.1'
+}
