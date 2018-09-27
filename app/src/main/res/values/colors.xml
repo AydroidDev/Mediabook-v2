@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000d1a</color>
+    <color name="colorPrimaryDark">#000d1a</color>
+    <color name="colorAccent">#000d1a</color>
+    <color name="colorBackground">#000d1a</color>
+    <color name="colorNavigation">#FFFFFF</color>
+    <color name="aospstudio_org">#626262</color>
+    <color name="ic_background">#FFFFFF</color>
+</resources>

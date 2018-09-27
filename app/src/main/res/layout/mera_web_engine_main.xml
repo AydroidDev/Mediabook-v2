@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/frameLayout"
+                android:layout_width="match_parent"
+                android:layout_height="3dp">
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:progressDrawable="@drawable/mera_progress" />
+
+            </FrameLayout>
+
+            <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+                android:id="@+id/swipeContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/frameLayout">
+
+                <WebView
+                    android:id="@+id/meraWeb"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:targetApi="28" />
+
+                <WebView
+                    android:autofillHints="true"
+                    android:id="@+id/meraWeb_stats"
+                    android:layout_width="1dp"
+                    android:layout_height="1dp"
+                    tools:targetApi="o" />
+
+                <FrameLayout
+                    android:id="@+id/fullscreenvideo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </FrameLayout>
+
+            </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+        </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

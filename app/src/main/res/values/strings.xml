@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Mediabook</string>
+    <string name="welcome_mediabook">Welcome to Mediabook again!</string>
+    <string name="mediabook_lab_created" translatable="false">Mediabook Lab created shortcut</string>
+    <string name="back_app" translatable="false">Mmm, at the end you have finished your work in the back and returned</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Mediabook</string>
+    <string name="nav_header_subtitle">mediabook v2</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Mediabook settings</string>
+    <string name="permission_denied_toast">Permissions not received</string>
+    <string name="permission_denied_title">The application will not work if you do not give the necessary permissions.</string>
+    <string name="app_loading_title">Loading..</string>
+    <string name="app_name_facebook">facebook</string>
+    <string name="app_name_instagram">Instagram</string>
+    <string name="app_name_soundcloud">SoundCloud</string>
+    <string name="app_name_twitter">twitter</string>
+    <string name="app_name_periscope">Periscope</string>
+    <string name="app_name_medium">Medium</string>
+    <string name="app_name_pinterest">Pinterest</string>
+    <string name="app_name_gplus">Google+</string>
+    <string name="app_name_linkedin">LinkedIn</string>
+    <string name="app_name_flickr">Flickr</string>
+    <string name="app_name_myspace">myspace</string>
+    <string name="app_name_tumblr">tumblr</string>
+    <string name="app_name_reddit">Reddit</string>
+    <string name="app_name_dailymotion">dailymotion</string>
+    <string name="app_name_twitch">Twitch</string>
+    <string name="app_name_vk">VK</string>
+    <string name="app_name_weibo">Weibo</string>
+    <string name="app_name_youtube">YouTube</string>
+    <string name="other_category">other</string>
+    <string name="dev_name">Developer name</string>
+    <string name="about_btn">About</string>
+    <string name="comment_btn">Comment</string>
+    <string name="app_info_btn">Application info and removal</string>
+    <string name="donate_app">Donate</string>
+    <string name="privacy_btn">Privacy Policy</string>
+    <string name="terms_btn">Terms of service</string>
+    <string name="open_mediabook">Start navigating</string>
+    <string name="retry_btn">Retry</string>
+    <string name="okay_btn">Okay</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="yes_btn">Yes</string>
+    <string name="no_btn">No</string>
+    <string name="tips_title">Tips</string>
+    <string name="tips_message">Slide your hand to the right of the screen to the right to open the Quick Access Menu.\n\nTo refresh the page, slide your hand down to the top of the page and the page will be refreshed.\n\nTouch the name of the page that is open for refreshing in the head access menu and refresh the page.\n\nTo go back in practice, press the back button of your phone once.\n\nPress 2 times back in 1 second to exit the application.\n\nTo access application information, open the Quick Access menu and touch Settings.</string>
+    <string name="eula_title">User agreement</string>
+    <string name="eula_message">Hereby, we have 2 application terms in our agreement: Terms of Use and Privacy policy.\nWe hereby declare that we shall never go beyond these terms, and that we will be notified if we are to use the application We ask for your approval.\n\nif you accept this agreement, you agree to the terms of use and privacy policy in the settings section of our application.</string>
+    <string name="eula_accept">I agree</string>
+    <string name="eula_refuse">I disagree</string>
+    <string name="settings_btn">Settings</string>
+    <string name="exitapp_btn">exit app</string>
+    <string name="close_btn">Close</string>
+    <string name="app_warning_title">Warning!</string>
+    <string name="app_exit_title">Are you sure you want to quit the app? If you agree, your existing transactions will be ended.</string>
+    <string name="app_error_dialog_title">An error occurred</string>
+    <string name="app_network_connection_error">Internet connection not found, please connect to a network and open the application again.</string>
+    <string name="app_page_load_error">There was a problem loading the page, because you might have an Internet connection, or there might be a problem with the connection you want to go.</string>
+    <string name="app_download_file">Download file..</string>
+    <string name="app_downloading_file">Downloading file</string>
+    <string name="app_picture_chooser">Image Chooser</string>
+    <string name="youtube_opened_title">Youtube warning</string>
+    <string name="app_youtube_opened_title">Turn on Auto-rotate for full-screen videos.</string>
+    <string name="close_fullscreen">You can press back to exit the full screen.</string>
+    <string name="googlesans_font" translatable="false">GoogleSans-Regular.ttf</string>
+    <string name="googlesans_font_bold" translatable="false">GoogleSans-Bold.ttf</string>
+</resources>

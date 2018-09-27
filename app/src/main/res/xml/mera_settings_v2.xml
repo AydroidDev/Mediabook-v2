@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/other_category">
+
+    <Preference
+        android:icon="@drawable/outline_account_circle_24"
+        android:title="@string/dev_name"
+        android:summary="AOSP STUDIO LLC.">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://play.google.com/store/apps/dev?id=8624791249577726911" />
+    </Preference>
+
+    <Preference android:icon="@drawable/outline_add_comment_24" android:title="@string/comment_btn">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="market://details?id=com.aospstudio.android.apps.mediabook" />
+    </Preference>
+
+     <Preference android:icon="@drawable/outline_attach_money_24" android:title="@string/donate_app">
+        <intent
+             android:action="android.intent.action.VIEW"
+             android:data="market://details?id=org.aospstudio.donate" />
+     </Preference>
+
+    <Preference android:icon="@drawable/outline_info_24" android:title="@string/app_info_btn">
+        <intent
+            android:action="android.settings.APPLICATION_DETAILS_SETTINGS"
+            android:data="package:com.aospstudio.android.apps.mediabook" />
+    </Preference>
+
+    <Preference android:icon="@drawable/outline_https_24" android:title="@string/privacy_btn">
+         <intent
+             android:action="android.intent.action.VIEW"
+             android:targetPackage="com.aospstudio.android.apps.mediabook"
+             android:targetClass="com.aospstudio.android.apps.mediabook.ca" />
+    </Preference>
+
+    <Preference android:icon="@drawable/outline_insert_drive_file_24" android:title="@string/terms_btn">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.aospstudio.android.apps.mediabook"
+            android:targetClass="com.aospstudio.android.apps.mediabook.dd" />
+    </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="theme">
+        <item>Material Design 2 Light</item>
+    </string-array>
+
+    <string-array name="themeAlias">
+        <item>Material Design 2 Light</item>
+    </string-array>
+
+    <string-array name="render">
+        <item>LOW</item>
+        <item>MEDIUM</item>
+        <item>HIGH</item>
+    </string-array>
+
+    <string-array name="renderAlias">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>

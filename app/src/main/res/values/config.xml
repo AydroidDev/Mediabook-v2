@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_supportSpeakerNearUltrasound">true</bool>
+
+    <integer name="config_multiuserMaximumUsers">2</integer>
+    <bool name="config_enableMultiUserUI">true</bool>
+</resources>

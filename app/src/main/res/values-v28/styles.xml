@@ -1,0 +1,87 @@
+<resources>
+
+    <style name="MD2" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="alertDialogTheme">@style/MD2Dialog</item>
+        <item name="dialogTheme">@style/MD2Dialog</item>
+        <item name="android:fontFamily">@string/googlesans_font</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="MD2Settings" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarTheme">@style/MD2Settings.ActionBar</item>
+        <item name="android:homeAsUpIndicator">@drawable/back_button</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="alertDialogTheme">@style/MD2Dialog</item>
+        <item name="dialogTheme">@style/MD2Dialog</item>
+        <item name="android:fontFamily">@string/googlesans_font</item>
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+
+    <style name="MD2Settings.ActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:homeAsUpIndicator">@drawable/back_button</item>
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="android:colorControlNormal">#ffffff</item>
+        <item name="android:fontFamily">@string/googlesans_font_bold</item>
+    </style>
+
+    <style name="MD2Activity" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarTheme">@style/MD2Settings.ActionBar</item>
+        <item name="android:homeAsUpIndicator">@drawable/back_button</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="alertDialogTheme">@style/MD2Dialog</item>
+        <item name="dialogTheme">@style/MD2Dialog</item>
+        <item name="android:fontFamily">@string/googlesans_font</item>
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+
+    <style name="MD2Activity.ActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:homeAsUpIndicator">@drawable/back_button</item>
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="android:colorControlNormal">#ffffff</item>
+        <item name="android:fontFamily">@string/googlesans_font_bold</item>
+    </style>
+
+    <style name="MD2Splash" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="alertDialogTheme">@style/MD2Dialog</item>
+        <item name="dialogTheme">@style/MD2Dialog</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:fontFamily">@string/googlesans_font</item>
+    </style>
+
+    <style name="MD2Lab" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">#ffffff</item>
+        <item name="colorPrimaryDark">#e5e5e5</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="alertDialogTheme">@style/MD2Dialog</item>
+        <item name="dialogTheme">@style/MD2Dialog</item>
+        <item name="android:fontFamily">@string/googlesans_font</item>
+    </style>
+
+    <style name="MD2Dialog" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@drawable/mera_dialog</item>
+        <item name="android:fontFamily">@string/googlesans_font</item>
+    </style>
+
+    <style name="MD2toast">
+        <item name="textColor">#525252</item>
+        <item name="textSize">15sp</item>
+        <item name="colorBackground">#f5f5f5</item>
+        <item name="solidBackground">true</item>
+        <item name="radius">20dp</item>
+        <item name="android:fontFamily">@string/googlesans_font</item>
+    </style>
+
+</resources>

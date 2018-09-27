@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/facebook"
+            android:title="@string/app_name_facebook" />
+        <item
+            android:id="@+id/instagram"
+            android:title="@string/app_name_instagram" />
+        <item
+            android:id="@+id/linkedin"
+            android:title="@string/app_name_linkedin" />
+        <item
+            android:id="@+id/flicker"
+            android:title="@string/app_name_flickr" />
+        <item
+            android:id="@+id/myspace"
+            android:title="@string/app_name_myspace" />
+        <item
+            android:id="@+id/twitter"
+            android:title="@string/app_name_twitter" />
+        <item
+            android:id="@+id/periscope"
+            android:title="@string/app_name_periscope" />
+        <item
+            android:id="@+id/medium"
+            android:title="@string/app_name_medium" />
+        <item
+            android:id="@+id/tumblr"
+            android:title="@string/app_name_tumblr" />
+        <item
+            android:id="@+id/reddit"
+            android:title="@string/app_name_reddit" />
+        <item
+            android:id="@+id/twitch"
+            android:title="@string/app_name_twitch" />
+        <item
+            android:id="@+id/vk"
+            android:title="@string/app_name_vk" />
+        <item
+            android:id="@+id/weibo"
+            android:title="@string/app_name_weibo" />
+        <item
+            android:id="@+id/youtube"
+            android:title="@string/app_name_youtube" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/settings"
+                android:title="@string/settings_btn" />
+        </menu>
+    </item>
+
+</menu>

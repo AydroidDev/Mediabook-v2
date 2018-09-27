@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="theme"
+        android:summary="Default value: Material Design 2 Light"
+        android:title="Theme"
+        android:entries="@array/theme"
+        android:entryValues="@array/themeAlias">
+    </ListPreference>
+
+    <ListPreference
+        android:key="webkitRender"
+        android:summary="Default value: HIGH"
+        android:title="Render Priority"
+        android:entries="@array/render"
+        android:entryValues="@array/renderAlias">
+    </ListPreference>
+
+    <!--
+    <SwitchPreference
+        android:key="autofill"
+        android:title="Autofill support"
+        android:defaultValue="true"
+        android:enabled="false" />
+    -->
+    <SwitchPreference
+        android:key="plugin"
+        android:title="Web PluginState"
+        android:defaultValue="true"
+        android:enabled="false" />
+
+    <!--
+    <SwitchPreference
+        android:key="javascript"
+        android:title="Javascript enabled"
+        android:defaultValue="true"
+        android:enabled="false" />
+    -->
+    <Preference
+        android:title="User agent ui:"
+        android:summary="Opera Browser" />
+
+    <Preference
+        android:title="Uninstall app">
+        <intent
+            android:action="android.settings.APPLICATION_DETAILS_SETTINGS"
+            android:data="package:com.aospstudio.android.apps.mediabook" />
+    </Preference>
+
+</PreferenceScreen>
